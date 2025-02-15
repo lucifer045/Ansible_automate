@@ -67,7 +67,7 @@ The project is structured around two primary roles: 'deploy' and 'rollback'.
 
 ## Usage
 **Installation of package:**
-```bash ansible-playbook -i inventory playbooks/deploy.yaml  # Install the package mentioned in default directory```
+```ansible-playbook -i inventory playbooks/deploy.yaml  # Install the package mentioned in default directory```
 
 **Rollback:**
-'''bash ansible-playbook -i inventory playbooks/rollback.yaml # Remove the packages```
+```bash ansible-playbook -i inventory playbooks/rollback.yaml # Remove the packages```
