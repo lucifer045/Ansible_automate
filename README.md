@@ -9,7 +9,7 @@ This project demonstrate how to use ansible to efficiently manage software packa
 * [Usage](#usage)
 
 ## Project Structure
-
+```
 ├── README.md
 ├── ansible.cfg
 ├── inventory
@@ -51,7 +51,7 @@ This project demonstrate how to use ansible to efficiently manage software packa
         │   └── test.yml
         └── vars
             └── main.yml
-
+```
 
 ## How it Works
 The project is structured around two primary roles: 'deploy' and 'rollback'.
@@ -67,7 +67,7 @@ The project is structured around two primary roles: 'deploy' and 'rollback'.
 
 ## Usage
 **Installation of package:**
-```bash ansible-playbook -i inventory playbooks/deploy.yaml  # Install the package mentioned in default directory
+```bash ansible-playbook -i inventory playbooks/deploy.yaml  # Install the package mentioned in default directory```
 
 **Rollback:**
-'''bash ansible-playbook -i inventory playbooks/rollback.yaml # Remove the packages 
+'''bash ansible-playbook -i inventory playbooks/rollback.yaml # Remove the packages```
